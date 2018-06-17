@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import 'mdbvue/build/css/mdb.css'
+import 'mdbvue/src/components/Waves.css'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -7,10 +7,11 @@
       name="title"
       v-model="title"
       placeholder="Title..." />
-    <button
+    <v-btn
+      color="primary"
       @click="createTask">
       Create Task
-    </button>
+    </v-btn>
   </div>
 </template>
 
